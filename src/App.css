@@ -28,6 +28,15 @@
   color: #61dafb;
 }
 
+@font-face {
+  font-family: Gabriola;
+  src: url(../public//Gabriola.ttf);
+}
+
+.gabriola {
+  font-family: Gabriola;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +44,35 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.background {
+  background-image: url("./images//bg/programming-coding-language-wallpaper-2560x1080_14.jpeg");
+  background-size: cover; /* Adjust as needed */
+  background-position: fixed; /* Adjust as needed */
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: -1;
+}
+.bg-overlay {
+  background-color: #000000ca;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+}
+
+/* Navigation hover effects */
+
+:root {
+  --light: #fffaf7;
+  --lighter: #a3a3a3;
+  --medium: #505050da;
+  --darker: #323232da;
+  --dark: #000000dc;
+  --darkSolid: #232323;
+  --undermenu: #fc2222dc;
 }
